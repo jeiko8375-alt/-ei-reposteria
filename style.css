@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fff5fa;
+    color: #333;
+}
+
+header {
+    background: #f7b6d2;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+nav {
+    background: white;
+    text-align: center;
+    padding: 18px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#inicio {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.producto {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+.foto {
+    height: 220px;
+    background: #ffe1ed;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 60px;
+    overflow: hidden;
+}
+
+.producto h3 {
+    margin-top: 15px;
+}
+
+.producto h4 {
+    color: #e85d9e;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.producto p {
+    line-height: 1.6;
+}
+
+.producto strong {
+    display: block;
+    font-size: 21px;
+    margin: 15px;
+}
+
+button {
+    background: #e85d9e;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+#contacto {
+    text-align: center;
+    line-height: 2;
+}
+
+footer {
+    background: #f7b6d2;
+    text-align: center;
+    padding: 25px;
+}
